@@ -1,7 +1,7 @@
 {
   "name": "novisajt",
   "version": "1.0.0",
-  "description": "OS Stefan Nemanja Nis",
+  "description": "OS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/kokanjankovic/osstefannemanjanis.git"
   },
-  "author": "kokan",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kokanjankovic/osstefannemanjanis/issues"
