@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/kokanjankovic/osstefannemanjanis/issues"
   },
-  "homepage": "https://github.com/kokanjankovic/osstefannemanjanis#readme"
+  "homepage": "https://github.com/kokanjankovic/osstefannemanjanis#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.8",
+    "bootstrap": "^5.2.0",
+    "dart-sass": "^1.25.0",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0"
+  }
 }
