@@ -1,0 +1,15 @@
+@use '../custom' as *;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+li{
+    padding-left: 0.7rem;
+    font-size: 1.125rem;
+    a{
+        color:$plava-svetlija !important;        
+    }
+}
+.navbar-brand{
+    color: $plava-tamnija !important;
+    font-size: 1.25rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}

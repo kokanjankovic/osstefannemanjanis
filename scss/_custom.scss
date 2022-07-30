@@ -1,0 +1,11 @@
+//moje boje
+$plava-tamnija:#093b86;
+$plava-svetlija:#2f73da;
+$siva-tekst:rgba(0, 0, 0, 0.7);
+
+$primary:$plava-svetlija;
+$secondary:$plava-tamnija;
+
+
+//Importovanje Bootstrap 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,9 @@
+@use '../custom' as *;
+
+#pocetna{
+    height: 70vh;
+}
+.carousel-caption{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
