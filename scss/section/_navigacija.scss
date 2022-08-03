@@ -1,5 +1,10 @@
 @use '../custom' as *;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
+.nav-bg{
+    background: rgba(255,255,255,0.7) !important;
+}
+
 li{
     padding-left: 0.7rem;
     font-size: 1.125rem;

@@ -9,8 +9,7 @@ $secondary:$plava-tamnija;
 .section-naslov{
     font-size: 3rem;
     color: $primary;    
-    padding-left: 2rem;
-    
+    padding-left: 1.5rem;    
 }
 .line{
     content: "";
@@ -18,8 +17,7 @@ $secondary:$plava-tamnija;
     width: 130px;
     height: 1px;
     background: $secondary;
-    left: 2rem;
-    
+    left: 2rem;    
 }
 .line::after{
     content: "";

@@ -3,7 +3,7 @@
 .section-naslov {
   font-size: 3rem;
   color: #2f73da;
-  padding-left: 2rem;
+  padding-left: 1.5rem;
 }
 
 .line {
@@ -10789,6 +10789,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.nav-bg {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+
 li {
   padding-left: 0.7rem;
   font-size: 1.125rem;
