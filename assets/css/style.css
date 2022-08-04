@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap");
 .section-naslov {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #2f73da;
   padding-left: 1.5rem;
 }
@@ -10808,6 +10808,48 @@ li a {
   font-weight: 500;
 }
 
+.obavestenje {
+  margin-top: 10px;
+}
+.obavestenje a {
+  position: relative !important;
+}
+.obavestenje .obavestenje-img {
+  width: 100%;
+  position: relative;
+  transition: 0.3s;
+}
+.obavestenje p {
+  position: absolute !important;
+  display: block;
+  background: transparent;
+  top: 25%;
+  left: 26%;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-sidebar {
+  border: none;
+  position: absolute;
+  background: none;
+  width: 100%;
+  height: 50px;
+  z-index: 2;
+  align-items: center;
+}
+
+.btn-sidebar:hover p {
+  color: #123;
+  transform: scale(1.1);
+}
+
+.modal-body img {
+  width: 100%;
+}
+
 #pocetna {
   height: 80vh;
 }
@@ -10821,6 +10863,7 @@ li a {
   margin-left: 2rem;
   background: #fff;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
 }
 
 .vest {
@@ -10830,6 +10873,10 @@ li a {
 }
 .vest .vest-datum {
   font-weight: 300;
+}
+
+.vesti-ostale {
+  height: 100%;
 }
 
 .vest-text {
@@ -10842,6 +10889,46 @@ li a {
 }
 .vest-text p {
   padding-left: 1rem;
+}
+
+#projekti {
+  padding-top: 2rem;
+  height: 100vh;
+  background: #fff !important;
+}
+
+.project {
+  margin-top: 1rem;
+  background-color: #fff;
+}
+
+.project-body {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin: 1rem;
+  box-shadow: 0.5rem 0.5rem 3rem 1px rgba(0, 0, 0, 0.2);
+}
+
+.project-img {
+  width: 100%;
+  max-height: 450px;
+  padding: 2rem 1rem;
+}
+
+.project-naslov {
+  margin-left: 1.5rem;
+}
+
+.project-naslov a {
+  color: #3a46ce;
+  font-size: 1.75rem;
+  text-decoration: none;
+}
+
+.project-text {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 0.5rem 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
