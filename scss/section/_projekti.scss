@@ -1,14 +1,12 @@
 @use '../custom' as *;
 
 #projekti{
+    
     padding-top: 2rem;    
     background: #fff !important;
+    height: 100%;
 }
-.project{
-margin-top: 1rem;
-background-color: #fff;
 
-}
 
 .project-body{
     border: 1px solid rgba(0,0,0,.15);

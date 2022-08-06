@@ -10894,11 +10894,7 @@ li a {
 #projekti {
   padding-top: 2rem;
   background: #fff !important;
-}
-
-.project {
-  margin-top: 1rem;
-  background-color: #fff;
+  height: 100%;
 }
 
 .project-body {
