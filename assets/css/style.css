@@ -10893,7 +10893,6 @@ li a {
 
 #projekti {
   padding-top: 2rem;
-  height: 100vh;
   background: #fff !important;
 }
 
@@ -10906,16 +10905,17 @@ li a {
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   margin: 1rem;
-  box-shadow: 0.5rem 0.5rem 3rem 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0.5rem 0.5rem 10px 1px rgba(0, 0, 0, 0.2);
 }
 
 .project-img {
-  width: 100%;
+  width: 400px;
   max-height: 450px;
-  padding: 2rem 1rem;
+  padding: 1rem;
 }
 
 .project-naslov {
+  padding-top: 2rem;
   margin-left: 1.5rem;
 }
 
@@ -10928,7 +10928,7 @@ li a {
 .project-text {
   font-size: 1.2rem;
   color: rgba(0, 0, 0, 0.7);
-  padding: 0.5rem 1rem;
+  padding: 0 5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
