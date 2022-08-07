@@ -1,0 +1,13 @@
+@use '../custom' as *;
+
+.footer{
+    background-color:#093b86;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        color: #fff;
+    }
+}

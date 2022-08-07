@@ -10927,4 +10927,182 @@ li a {
   padding: 0 5rem;
 }
 
+.menadzment {
+  background: #222;
+}
+
+.card {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.05);
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  transition-duration: 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card:hover .content {
+  opacity: 1;
+}
+
+.imgBox {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid rgba(0, 0, 0, 0.25);
+}
+
+.imgBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.contentBox h3 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin: 20px 0 10px;
+}
+
+.contentBox h3 span {
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: initial;
+}
+
+.btn-galerija {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  margin: 1rem;
+  justify-content: space-evenly;
+}
+
+.gallery {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+
+.item:hover {
+  flex: 4;
+}
+
+.item-1 {
+  background-image: url("../../assets/img/galerija/cep1.jpg");
+}
+
+.item-2 {
+  background-image: url("../../assets/img/galerija/citaoci1.jpg");
+}
+
+.item-3 {
+  background-image: url("../../assets/img/galerija/slajd1.jpg");
+}
+
+.item-4 {
+  background-image: url("../../assets/img/galerija/kosarkasice1.jpg");
+}
+
+.item-5 {
+  background-image: url("../../assets/img/galerija/slajd31.jpg");
+}
+
+.item-6 {
+  background-image: url("../../assets/img/galerija/sova1.jpg");
+}
+
+.item-7 {
+  background-image: url("../../assets/img/galerija/citaonica1.jpg");
+}
+
+.item-8 {
+  background-image: url("../../assets/img/galerija/viktor1.jpg");
+}
+
+.item-11 {
+  background-image: url("../../assets/img/galerija/2dzudo.jpg");
+}
+
+.item-12 {
+  background-image: url("../../assets/img/galerija/2jovana.jpg");
+}
+
+.item-13 {
+  background-image: url("../../assets/img/galerija/2jovanaruzic.jpg");
+}
+
+.item-14 {
+  background-image: url("../../assets/img/galerija/2jovanasotirovski.jpg");
+}
+
+.item-15 {
+  background-image: url("../../assets/img/galerija/2kosarkasi.jpg");
+}
+
+.item-16 {
+  background-image: url("../../assets/img/galerija/2kosarkasice.jpg");
+}
+
+.item-17 {
+  background-image: url("../../assets/img/galerija/2plivaci.jpg");
+}
+
+.item-18 {
+  background-image: url("../../assets/img/galerija/2vesne.jpg");
+}
+
+.footer {
+  background-color: #093b86;
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer p {
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */

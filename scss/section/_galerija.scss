@@ -1,0 +1,71 @@
+@use '../custom' as *;
+
+.gallery{
+    background-color: rgba(0,0 , 0, 0.6);
+}
+.gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+  }  
+.item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;    
+  }
+.item:hover{
+    flex: 4;
+  }  
+.item-1 { 
+    background-image: url('../../assets/img/galerija/cep1.jpg');
+  }  
+.item-2 { 
+    background-image: url('../../assets/img/galerija/citaoci1.jpg');
+  }  
+.item-3 { 
+    background-image: url('../../assets/img/galerija/slajd1.jpg');
+  }  
+.item-4 { 
+    background-image: url('../../assets/img/galerija/kosarkasice1.jpg');
+  }  
+.item-5 { 
+    background-image: url('../../assets/img/galerija/slajd31.jpg');
+  }
+.item-6 { 
+    background-image: url('../../assets/img/galerija/sova1.jpg');
+  }
+.item-7 { 
+    background-image: url('../../assets/img/galerija/citaonica1.jpg');
+  }
+.item-8 { 
+    background-image: url('../../assets/img/galerija/viktor1.jpg');
+  }
+
+  .item-11 { 
+    background-image: url('../../assets/img/galerija/2dzudo.jpg');
+  }  
+.item-12 { 
+    background-image: url('../../assets/img/galerija/2jovana.jpg');
+  }  
+.item-13 { 
+    background-image: url('../../assets/img/galerija/2jovanaruzic.jpg');
+  }  
+.item-14 { 
+    background-image: url('../../assets/img/galerija/2jovanasotirovski.jpg');
+  }  
+.item-15 { 
+    background-image: url('../../assets/img/galerija/2kosarkasi.jpg');
+  }
+.item-16 { 
+    background-image: url('../../assets/img/galerija/2kosarkasice.jpg');
+  }
+.item-17 { 
+    background-image: url('../../assets/img/galerija/2plivaci.jpg');
+  }
+.item-18 { 
+    background-image: url('../../assets/img/galerija/2vesne.jpg');
+  }

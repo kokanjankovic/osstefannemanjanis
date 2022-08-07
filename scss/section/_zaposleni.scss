@@ -1,0 +1,71 @@
+@use '../custom' as *;
+
+
+.menadzment{
+    background: #222;
+}
+.card{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    background: rgba(255,255,255, 0.05);
+    margin: 10px;    
+    box-shadow: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    transition-duration: 0.5s;    
+}
+.card:hover{
+    transform: scale(1.1); 
+}
+.card:hover .content{
+    opacity: 1;    
+}
+.imgBox{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid rgba(0,0,0,0.25);
+}
+.imgBox img{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    object-fit: cover;
+}
+.content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.contentBox h3{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+.contentBox h3 span{
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: initial;
+}
+.btn-galerija{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin: 1rem ;
+    justify-content: space-evenly;
+}
