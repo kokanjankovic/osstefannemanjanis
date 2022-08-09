@@ -28,12 +28,8 @@ li{
     .obavestenje-img{        
         width: 100%;
         position:relative; 
-        transition: 0.3s; 
-         
+        transition: 0.3s;          
     }      
-    .obavestenje-img:hover, .btn-sidebar{
-        
-    }  
     p{
         position: absolute !important;
         display: block;
@@ -43,9 +39,7 @@ li{
         color: #fff;
         font-size: 1.125rem;
         font-weight: 500;
-        transition: 0.3s;
-
-        
+        transition: 0.3s;        
     }     
 }
 .btn-sidebar{
@@ -55,13 +49,11 @@ li{
     width: 100%;
     height: 50px;
     z-index: 2;
-    align-items: center;
-    
+    align-items: center;    
 }
 .btn-sidebar:hover p{
-    color: #123;
-    
-        transform: scale(1.1);
+    color: #123;    
+    transform: scale(1.05);
     
 }
 .modal-body{

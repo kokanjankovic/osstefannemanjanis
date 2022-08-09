@@ -10843,7 +10843,7 @@ li a {
 
 .btn-sidebar:hover p {
   color: #123;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .modal-body img {
@@ -10883,12 +10883,10 @@ li a {
   flex-direction: row;
 }
 .vest-text .vest-img {
-  width: 150px;
+  width: 100%;
   height: 100%;
   padding-bottom: 1rem;
-}
-.vest-text p {
-  padding-left: 1rem;
+  justify-content: space-between;
 }
 
 #projekti {
