@@ -10884,7 +10884,7 @@ li a {
 }
 .vest-text .vest-img {
   width: 150px;
-  height: auto;
+  height: 100%;
   padding-bottom: 1rem;
 }
 .vest-text p {
