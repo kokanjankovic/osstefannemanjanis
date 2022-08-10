@@ -11,6 +11,17 @@ $secondary:$plava-tamnija;
     color: $primary;    
     padding-left: 1.5rem;    
 }
+@media screen and (max-width: 992px) {
+    .section-naslov{
+        font-size: 2rem;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .section-naslov{
+        font-size: 1.75rem;
+    }
+  }
+
 .line{
     content: "";
     position: relative;
