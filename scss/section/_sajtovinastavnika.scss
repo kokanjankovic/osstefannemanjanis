@@ -2,9 +2,14 @@
 
 .sajt-nastavnika{
     margin-top: 1rem; 
-    a{   
-        font-size: 1rem;
-        text-decoration: none !important;            
+    display: block;
+    
+}
+a{
+    text-decoration: none !important;            
+    h5{   
+    font-size: 1rem !important;
+    
     }
 }
 

@@ -10840,6 +10840,13 @@ li a {
   font-weight: 500;
   transition: 0.3s;
 }
+@media screen and (max-width: 992px) {
+  .obavestenje p {
+    font-size: 1rem;
+    font-weight: 300;
+    top: 75%;
+  }
+}
 
 .btn-sidebar {
   border: none;

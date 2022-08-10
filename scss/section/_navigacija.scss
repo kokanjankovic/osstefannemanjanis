@@ -40,7 +40,15 @@ li{
         font-size: 1.125rem;
         font-weight: 500;
         transition: 0.3s;        
-    }     
+    }
+    @media screen and (max-width: 992px) {
+        p {
+          font-size: 1rem;
+          font-weight: 300;
+          top: 75%;
+        }
+      }
+
 }
 .btn-sidebar{
     border: none;
