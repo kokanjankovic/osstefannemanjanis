@@ -7,6 +7,7 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
   </head>
   <body>
@@ -29,9 +30,8 @@ Navigacija
         <div class="container-fluid nav-bg shadow">
           <a class="navbar-brand" href="#">ОШ "Стефан Немања" Ниш</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
-
           <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item text-primary">
@@ -114,12 +114,12 @@ Vesti
         <div class="row mt-5">
           <!-- Leva strana - vesti -->
           <div class="col-lg-9 col-md-6 bg-light"> 
-            <h1 class="section-naslov">Вести</h1>
-            <div class="line"></div>           
+            <h1 class="section-naslov" data-aos="fade-up-left">Вести</h1>
+            <div class="line" data-aos="zoom-in-right"></div>           
             <div class="row pt-5" >
 
               <!-- Glavna vest -->
-                <div class="col-lg-6 col-md-12 bg-white ">
+                <div class="col-lg-6 col-md-12 bg-white " data-aos="zoom-in-right">
                   <div id="vest1" class="glavna-vest">
                     <div class="row">
                       <img src="assets/img/vesti/JovanaG800x600.jpg" class="vest-img">
@@ -144,8 +144,8 @@ Vesti
                 <div class="col-lg-6 col-md-12">
                   <div class="vest-ostale">
                     <div class="row">
-                      <!-- Vest broj 5 -->
-                      <div id="vest2" class="vest pt-3 mb-3"> 
+                      <!-- Vest broj 2 -->
+                      <div id="vest2" class="vest pt-3 mb-3" data-aos="zoom-in-right"> 
                                
                         <h4>Naslov2</h4>
                         <div class="vest-datum">01.01.2023</div>
@@ -165,7 +165,7 @@ Vesti
                     </div>
                     <!-- Kraj vesti2 -->
                     <!-- Vest broj 3 -->
-                    <div id="vest3" class="vest pt-3 mb-3"> 
+                    <div id="vest3" class="vest pt-3 mb-3" data-aos="zoom-in-right"> 
                                
                       <h4>Naslov3</h4>
                       <div class="vest-datum">01.01.2023</div>
@@ -185,7 +185,7 @@ Vesti
                   </div>
                   <!-- Kraj vesti 3 -->
                   <!-- Vest broj 4 -->
-                  <div id="vest4" class="vest pt-3 mb-3"> 
+                  <div id="vest4" class="vest pt-3 mb-3" data-aos="zoom-in-right"> 
                                
                     <h4>Naslov4</h4>
                     <div class="vest-datum">01.01.2023</div>
@@ -205,7 +205,7 @@ Vesti
                 </div>
                 <!-- Kraj vesti4 -->
                       <!-- Vest broj 5 -->
-                      <div id="vest5" class="vest pt-3 mb-3"> 
+                      <div id="vest5" class="vest pt-3 mb-3" data-aos="zoom-in-right"> 
                                
                           <h4>Naslov5</h4>
                           <div class="vest-datum">01.01.2023</div>
@@ -234,58 +234,66 @@ Vesti
         <!-- Desna strana - navigacioni meni za obaveštenja -->
           <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="container-fluid ">
-              <h1 class="section-naslov">Обавештења</h1>
-              <div class="line"></div>
-              <div class="row pt-5">
-                <div class="obavestenje">
+              <h1 class="section-naslov" data-aos="fade-up-left" >Обавештења</h1>
+              <div class="line" data-aos="zoom-in-left"></div>
+              <div class="row pt-5" >
+                <div class="obavestenje" data-aos="fade-left">
                 <a href="#"><button  type="button" class="btn-sidebar" data-bs-toggle="modal" data-bs-target="#djak-generacije"><p>Ђак генерације</p></button><img class="obavestenje-img" src="assets/img/OLOVKA.png">                 
                 </a>                
                 </div>
-                <div class="obavestenje">
+                <div class="obavestenje" data-aos="fade-left">
                 <a href="#"><button  type="button" class="btn-sidebar" data-bs-toggle="modal" data-bs-target="#prvaci"><p>Упис првака</p></button><img class="obavestenje-img" src="assets/img/OLOVKA.png">                 
                 </a>                
                 </div>
-                <div class="obavestenje">
+                <div class="obavestenje" data-aos="fade-left">
                 <a href="#"><button  type="button" class="btn-sidebar" data-bs-toggle="modal" data-bs-target="#predskolci"><p>Упис предшколаца</p></button><img class="obavestenje-img" src="assets/img/OLOVKA.png">                 
                 </a>                
                 </div>
-                <div class="obavestenje">
+                <div class="obavestenje" data-aos="fade-left">
                 <a href="#"><button  type="button" class="btn-sidebar" data-bs-toggle="modal" data-bs-target="#kalendar"><p>Календар рада</p></button><img class="obavestenje-img" src="assets/img/OLOVKA.png">                 
                 </a>                
                 </div>
-                <div class="obavestenje">
+                <div class="obavestenje" data-aos="fade-left">
                 <a href="#"><button  type="button" class="btn-sidebar" data-bs-toggle="modal" data-bs-target="#raspored-zvonjenja"><p>Распоред звоњења</p></button><img class="obavestenje-img" src="assets/img/OLOVKA.png">                 
                 </a>                
                 </div>
-                <div class="obavestenje">
+                <div class="obavestenje" data-aos="fade-left">
                 <a href="#"><button  type="button" class="btn-sidebar" data-bs-toggle="modal" data-bs-target="#otvorena-vrata"><p>Отворена врата</p></button><img class="obavestenje-img" src="assets/img/OLOVKA.png">                 
                 </a>                
                 </div>
-                <div class="obavestenje">
+                <div class="obavestenje" data-aos="fade-left">
                 <a href="#"><button  type="button" class="btn-sidebar" data-bs-toggle="modal" data-bs-target="#besplatni-udzbenici"><p>Уџбеници</p> </button><img class="obavestenje-img" src="assets/img/OLOVKA.png">                
                 </a>                
                 </div>
-                <div class="obavestenje">
+                <div class="obavestenje" data-aos="fade-left">
                 <a href="#"><button  type="button" class="btn-sidebar" data-bs-toggle="modal" data-bs-target="#"><p>Ужина</p></button><img class="obavestenje-img" src="assets/img/OLOVKA.png">                
                 </a>                
                 </div>
-                <div class="obavestenje">
+                <div class="obavestenje" data-aos="fade-left">
+                  <a href="#"><button  type="button" class="btn-sidebar" data-bs-toggle="modal" data-bs-target="#"><p>Школски органи</p></button><img class="obavestenje-img" src="assets/img/OLOVKA.png">                 
+                  </a>                
+                  </div>
+                <div class="obavestenje" data-aos="fade-left">
                 <a href="#"><button  type="button" class="btn-sidebar" data-bs-toggle="modal" data-bs-target="#"><p>Правилници</p></button><img class="obavestenje-img" src="assets/img/OLOVKA.png">                 
                 </a>                
                 </div>
-                <div class="obavestenje">
+                <div class="obavestenje" data-aos="fade-left">
+                  <a href="#"><button  type="button" class="btn-sidebar" data-bs-toggle="modal" data-bs-target="#"><p>Закони и биланси</p></button><img class="obavestenje-img" src="assets/img/OLOVKA.png">                 
+                  </a>                
+                  </div>
+                <div class="obavestenje" data-aos="fade-left">
                 <a href="#"><button  type="button" class="btn-sidebar" data-bs-toggle="modal" data-bs-target="#"><p>Кодекс понашања</p></button><img class="obavestenje-img" src="assets/img/OLOVKA.png">                 
                 </a>                
                 </div>
-                <div class="obavestenje">
+                <div class="obavestenje" data-aos="fade-left">
                 <a href="#"><button  type="button" class="btn-sidebar" data-bs-toggle="modal" data-bs-target="#"><p>Обрасци</p></button><img class="obavestenje-img" src="assets/img/OLOVKA.png">                 
                 </a>                
                 </div>
-                <div class="obavestenje">
+                <div class="obavestenje" data-aos="fade-left">
                 <a href="#"><button  type="button" class="btn-sidebar" data-bs-toggle="modal" data-bs-target="#"><p>Летопис</p></button><img class="obavestenje-img" src="assets/img/OLOVKA.png">                 
                 </a>                
                 </div>
-                <div class="obavestenje">
+                <div class="obavestenje" data-aos="fade-left">
                 <a href="#"><button  type="button" class="btn-sidebar" data-bs-toggle="modal" data-bs-target="#zubar"><p>Зубар</p> </button><img class="obavestenje-img" src="assets/img/OLOVKA.png">                
                 </a>                
                 </div>
@@ -475,7 +483,7 @@ Vesti
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Otvorena vrata</h5>
+            <h5 class="modal-title" id="staticBackdropLabel">Отворена врата</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
@@ -484,7 +492,7 @@ Vesti
               <p>
             Поред појединачних недељних термина за отворена врата сваког наставника понаособ, наша школа организује и једном месечно, и то сваког трећег уторка у месецу од 19 до 20 часова Колективна отворена врата. То је време када су у школи присутни сви запослени: директор, педагог, психолог, социолог, библиотекар, медијатекар, сви наставници и учитељи. Овај вечерњи термин је одабран да би се омогућило родитељима који имају непредвидиво радно време, да стигну да се обрате наставницима јер су често због природе посла онемогућени да стигну до школе у току дана. У овом термину можете разговарати са  свим наставницима који раде у школи са вашом децом, а не само са једним од њих. У овим терминима наша школа често организује стручна предавања и трибине посвећене родитељима и деци у овом незгодном узрасном периоду. Можете чути од стручних људи нешто корисно што ће вам помоћи да превазиђете препреке, недоумице, проблеме са којима се срећете током  школовања, овог осетљивог периода у животу сваког детета.</p>
             <p>
-            Термини отворених врата за сваког наставника доступни су вам на линк <a href="obrasci/OTVORENA VRATA.pdf">Otvorena vrata</a>, као и на огласној табли у холу школе. Замолили бисмо све родитеље да приликом доласка у школу испоштују ове термине наставника и учитеља предвиђене за рад са родитељима. Због прецизности нашег радног времена које је највише посвећено ћацима, наставници немају довољно времена да се у потпуности посвете родитељима ван ових термина. За време великог одмора трају дежурства наставника и учитеља ради боље безбедности ученика у школи, а мали одмор траје само 5 минута, па су зато наставници тада спречени да детаљније, дуже и са пуном пажњом поразговарају са родитељима, или не могу пренети родитељу сваку битну информацију о детету. Сав наш рад и труд је усмерен ка што бољој сарадњи са вама родитељима, јер су свима нама најважнија наша деца, наши ђаци.</p>
+            Термини отворених врата за сваког наставника доступни су вам на линк <a href="obrasci/OTVORENA VRATA.pdf">Отворена врата</a>, као и на огласној табли у холу школе. Замолили бисмо све родитеље да приликом доласка у школу испоштују ове термине наставника и учитеља предвиђене за рад са родитељима. Због прецизности нашег радног времена које је највише посвећено ћацима, наставници немају довољно времена да се у потпуности посвете родитељима ван ових термина. За време великог одмора трају дежурства наставника и учитеља ради боље безбедности ученика у школи, а мали одмор траје само 5 минута, па су зато наставници тада спречени да детаљније, дуже и са пуном пажњом поразговарају са родитељима, или не могу пренети родитељу сваку битну информацију о детету. Сав наш рад и труд је усмерен ка што бољој сарадњи са вама родитељима, јер су свима нама најважнија наша деца, наши ђаци.</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                          
@@ -497,7 +505,7 @@ Vesti
       <div class="modal-dialog modal-md">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Распоред звоњења</h5>
+            <h5 class="modal-title" id="staticBackdropLabel">Потребна документација за бесплатне уџбенике</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body ">
@@ -890,13 +898,23 @@ Footer
       </div>
     </footer>
     <!-- Skript za facebook stranicu škole -->
+    
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/sr_RS/sdk.js#xfbml=1&version=v14.0" nonce="s2z3IMtg"></script>
-
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+      duration: 1000,
+      offset: 500,
+      once: true
+    });
+</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-   
+    
+    
   </body>
 </html>

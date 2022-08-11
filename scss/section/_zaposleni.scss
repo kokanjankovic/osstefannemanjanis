@@ -68,4 +68,9 @@
     padding: 2rem;
     margin: 1rem ;
     justify-content: space-evenly;
+    @media screen and (max-width: 576px) {
+        .btn{
+        font-size: 0.85rem !important;
+        }
+    }
 }

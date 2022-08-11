@@ -10842,9 +10842,15 @@ li a {
 }
 @media screen and (max-width: 768px) {
   .obavestenje p {
+    font-weight: 500;
+    top: 65%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .obavestenje p {
     font-size: 1rem;
     font-weight: 300;
-    top: 20%;
+    top: 50%;
   }
 }
 
@@ -11015,6 +11021,11 @@ li a {
   margin: 1rem;
   justify-content: space-evenly;
 }
+@media screen and (max-width: 576px) {
+  .btn-galerija .btn {
+    font-size: 0.85rem !important;
+  }
+}
 
 .gallery {
   background-color: rgba(0, 0, 0, 0.6);
@@ -11030,7 +11041,7 @@ li a {
 .item {
   flex: 1;
   height: 100%;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-repeat: none;
   transition: flex 0.8s ease;
